@@ -6,3 +6,6 @@ export type TJwtUser = {
 export type TJwtPayload = {
   user: TJwtUser;
 };
+
+export type TRoles = "medicalCenter" | "patient";
+
